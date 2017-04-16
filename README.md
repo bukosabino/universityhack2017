@@ -39,8 +39,6 @@ Un modo cómodo de ver los datos y sacar algunas conclusiones son los EDAs. Pued
 - cd ../models/
 - python et_ensemble.py
 - python rf_ensemble.py
-- python ab_ensemble.py
-- python gb_ensemble.py
 
 # TODO
 
