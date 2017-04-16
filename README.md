@@ -18,10 +18,8 @@ Los algoritmos usados son algunos de los ensembles más famosos que nos provee l
 | --------- | --------- | ----------------- |
 | ExtraTrees | 48.6 % | 43.5 % |
 | RandomForest | 48.77 % | 43.8 % |
-| AdaBoost | | |
-| GradientBoosting | | |
 
-Se pueden consultar más detalles en el archivo doc/cuerpo.pdf
+Se pueden consultar más detalles en el archivo doc/Documentación.pdf
 
 # Instalación y ejecución
 
