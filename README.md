@@ -16,8 +16,8 @@ Los algoritmos usados son algunos de los ensembles más famosos que nos provee l
 
 | Algoritmo | Precisión | Coeficiente Kappa |
 | --------- | --------- | ----------------- |
-| ExtraTrees | 48.6 % | 43.5 % |
-| RandomForest | 48.77 % | 43.8 % |
+| ExtraTrees (models/et_ensemble.py) | 48.6 % | 43.5 % |
+| RandomForest (models/rf_ensemble.py) | 48.77 % | 43.8 % |
 
 Se pueden consultar más detalles en el archivo doc/Documentación.pdf
 
