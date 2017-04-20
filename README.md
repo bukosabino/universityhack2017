@@ -16,8 +16,8 @@ Los algoritmos usados son algunos de los ensembles más famosos que nos provee l
 
 | Algoritmo | Precisión | Coeficiente Kappa |
 | --------- | --------- | ----------------- |
-| ExtraTrees | 48.6 % | 43.5 % |
-| RandomForest | 48.77 % | 43.8 % |
+| ExtraTrees (models/et_ensemble.py) | 48.6 % | 43.5 % |
+| RandomForest (models/rf_ensemble.py) | 48.77 % | 43.8 % |
 
 Se pueden consultar más detalles en el archivo doc/Documentación.pdf
 
@@ -46,4 +46,7 @@ Estudiar con más detalle las secuencias de compras que muestra los clientes, a
 
 # Notas
 
-Para futuras competiciones recomendamos al grupo Cajamar que valore de modo diferentes los resultados, dando más importancia al porcentaje de aciertos. Nos hemos visto superados en la primera fase de Granada por un equipo que en la fase final ha logrado un 45% de acierto y en la clasificación general por uno con 46% de acierto.
+Para futuras competiciones recomendamos al grupo Cajamar que valore de modo diferente los resultados obtenidos por los participantes, dando más importancia al porcentaje de aciertos. Nos hemos visto superados en la primera fase de Granada por un equipo que en la fase final ha logrado un 45% de acierto y en la clasificación general ha ganado un equipo con un 46% de acierto.
+
+Les proponemos usar plataformas como Kaggle, porque pueden facilitar la labor en la valoración de resultados, la liberación de los datos de la competición (tanto en modo privado para los participantes, como hacerlos públicos si así lo desean), además aumentaría la comunicación entre participante mediante foros comunes.
+
