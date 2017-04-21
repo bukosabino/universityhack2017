@@ -18,12 +18,20 @@ Los algoritmos usados son algunos de los ensembles más famosos que nos provee l
 | --------- | --------- | ----------------- |
 | ExtraTrees (models/et_ensemble.py) | 48.6 % | 43.5 % |
 | RandomForest (models/rf_ensemble.py) | 48.77 % | 43.8 % |
+| XGBoost (models/xgb_ensemble.py) | 50.88 % | 46.06 % |
 
 Se pueden consultar más detalles en el archivo doc/Documentación.pdf
 
 # Instalación y ejecución
 
 - pip install -r requirements
+
+Si se quiere usar el archivo xgb_ensemble.py donde se usa el XGBoost, es necesario no instalar con un simple “pip install xgboost”, porque se han usado características recientemente incluidas en el proyecto. Para más info: https://github.com/dmlc/xgboost/issues/1950 . Por tanto, los pasos a seguir para instalar XGBoost serían:
+
+- git clone https://github.com/dmlc/xgboost
+- cd xgboost/python-package
+- sudo python setup.py install
+- export PYTHONPATH=~/<your-path>/xgboost/python-package
 
 #### EDAs
 
@@ -39,6 +47,7 @@ Un modo cómodo de ver los datos y sacar algunas conclusiones son los EDAs. Pued
 - cd ../models/
 - python et_ensemble.py
 - python rf_ensemble.py
+- python xgb_ensemble.py
 
 # TODO
 
@@ -49,4 +58,3 @@ Estudiar con más detalle las secuencias de compras que muestra los clientes, a
 Para futuras competiciones recomendamos al grupo Cajamar que valore de modo diferente los resultados obtenidos por los participantes, dando más importancia al porcentaje de aciertos. Nos hemos visto superados en la primera fase de Granada por un equipo que en la fase final ha logrado un 45% de acierto y en la clasificación general ha ganado un equipo con un 46% de acierto.
 
 Les proponemos usar plataformas como Kaggle, porque pueden facilitar la labor en la valoración de resultados, la liberación de los datos de la competición (tanto en modo privado para los participantes, como hacerlos públicos si así lo desean), además aumentaría la comunicación entre participante mediante foros comunes.
-
