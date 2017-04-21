@@ -18,6 +18,7 @@ Los algoritmos usados son algunos de los ensembles más famosos que nos provee l
 | --------- | --------- | ----------------- |
 | ExtraTrees (models/et_ensemble.py) | 48.6 % | 43.5 % |
 | RandomForest (models/rf_ensemble.py) | 48.77 % | 43.8 % |
+| XGBoost (models/xgb_ensemble.py) | 50.88 % | 46.06 % |
 
 Se pueden consultar más detalles en el archivo doc/Documentación.pdf
 
@@ -39,6 +40,7 @@ Un modo cómodo de ver los datos y sacar algunas conclusiones son los EDAs. Pued
 - cd ../models/
 - python et_ensemble.py
 - python rf_ensemble.py
+- python xgb_ensemble.py
 
 # TODO
 
